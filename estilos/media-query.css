@@ -16,6 +16,7 @@ Grandes telas: acima de 1200px
 
   #login {
     width: 80vw;
+    height: 400px;
   }
 
   #imagem {
@@ -29,6 +30,11 @@ Grandes telas: acima de 1200px
     width: 60%;
     height: 100%;
   }
+
+  #formulario > p {
+    font-size: 1em;
+    margin: 20px 0px;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -38,6 +44,7 @@ Grandes telas: acima de 1200px
 
   #login {
     width: 900px;
+    height: 450px;
   }
 
   #imagem {
@@ -58,5 +65,6 @@ Grandes telas: acima de 1200px
 
   #formulario > p {
     font-size: 1em;
+    margin: 20px 0px;
   }
 }
